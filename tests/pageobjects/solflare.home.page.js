@@ -16,17 +16,17 @@ export class SolflareElement {
 export class SolflareHomePage extends SolflareElement {
 
     // Define the locators for UI elements (buttons and fields) on the Solflare site
-    static accessWalletBtn() { return this.Element(`//a[normalize-space()='Access wallet']`) };
-    static iNeedWalletBtn() { return this.Element(`//button[normalize-space()='I NEED A NEW WALLET']`) };
-    static copyBtn() { return this.Element(`//button[normalize-space()='Copy']`) };
-    static saveMyRecoveryBtn() { return this.Element(`//button[normalize-space()='I SAVED MY RECOVERY PHRASE']`) };
-    static confirmRecoveyPhrase() { return this.Element(`//h2[normalize-space()='Confirm your Recovery Phrase']`) };
-    static newPasswordInputField() { return this.Element(`input[id=':r2:']`) };
-    static repeatPasswordInputField() { return this.Element(`input[id=':r3:']`) };
-    static continueBtn() { return this.Element(`button[type='submit']`) };
-    static followUsTwitterBtn() { return this.Element(`//span[normalize-space()='Follow us']`) };
-    static enterSolanaBtn() { return this.Element(`//span[normalize-space()='Enter Solana']`) };
-    static portfolioPageText() { return this.Element(`//p[normalize-space()='Portfolio']`) };
+    static accessWalletBtn() { return this.Element(`//a[normalize-space()='Access wallet']`) }; // 'Access wallet' button
+    static iNeedWalletBtn() { return this.Element(`//button[normalize-space()='I NEED A NEW WALLET']`) }; // 'I NEED A NEW WALLET' button
+    static copyBtn() { return this.Element(`//button[normalize-space()='Copy']`) }; // 'Copy' button
+    static saveMyRecoveryBtn() { return this.Element(`//button[normalize-space()='I SAVED MY RECOVERY PHRASE']`) }; // 'I SAVED MY RECOVERY PHRASE' button
+    static confirmRecoveyPhrase() { return this.Element(`//h2[normalize-space()='Confirm your Recovery Phrase']`) }; // 'Confirm Your Recovery Phrase' button
+    static newPasswordInputField() { return this.Element(`input[id=':r2:']`) }; // 'New Password' field
+    static repeatPasswordInputField() { return this.Element(`input[id=':r3:']`) }; // 'Repeat Password' field
+    static continueBtn() { return this.Element(`button[type='submit']`) }; // 'Continue' button
+    static followUsTwitterBtn() { return this.Element(`//span[normalize-space()='Follow us']`) }; // 'Follow Us' button
+    static enterSolanaBtn() { return this.Element(`//span[normalize-space()='Enter Solana']`) }; // 'Enter Solana' button
+    static portfolioPageText() { return this.Element(`//p[normalize-space()='Portfolio']`) }; // 'Portfolio' page title for validation
 
 
 
